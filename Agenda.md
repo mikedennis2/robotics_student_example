@@ -18,6 +18,7 @@
 3. Install Github extension pack
     - In extensions section of vs code, search for "Github"
     - Test cloning a repo via vs code, will probably need an SSH key (We will do this together)
+    - Make sure you have your github sign on info handy!
     - Clone this repository so we have our code to work with!
 
 
