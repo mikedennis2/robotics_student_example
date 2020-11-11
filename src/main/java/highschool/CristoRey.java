@@ -1,4 +1,4 @@
-package main.java.highschool;
+package highschool;
 
 import java.time.LocalDate;
 
