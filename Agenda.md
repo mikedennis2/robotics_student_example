@@ -5,7 +5,7 @@
 1. Install Java, vs code, and then java extension pack
     - Using a chromebook: https://www.youtube.com/watch?v=302p0nTOZLU
     - Using a mac/windows PC: 
-        1. Install java: https://www.java.com/en/download/
+        1. Install java: https://www.oracle.com/java/technologies/javase-downloads.html
         2. Install Visual Studio Code: https://code.visualstudio.com
         3. Install java extension pack (watch the end of the chromebook video, it is the same) 
 
