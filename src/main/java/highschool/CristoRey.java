@@ -17,7 +17,7 @@ public class CristoRey {
 
         double rate_per_credit_hour = 550.75;
 
-        double student_a_fees = student_a_credit_hours * rate_per_credit_hour;
+        double student_a_fees = Student.calculateAttenceCost(rate_per_credit_hour, student_a_credit_hours);
         double student_b_fees = student_b_credit_hours * rate_per_credit_hour;
 
         System.out.println("Student a's name is: " + student_a_name + " and he is " + student_a_age + ".");
