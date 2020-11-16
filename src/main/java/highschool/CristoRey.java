@@ -29,6 +29,7 @@ public class CristoRey {
         double student_a_fees = Student.calculateAttenceCost(rate_per_credit_hour, a.credit_hours);
         double student_b_fees = Student.calculateAttenceCost(rate_per_credit_hour, b.credit_hours);
 
+        // We repeated the same lines of code for students a and b. Is there a better way??
         System.out.println("Student a's name is: " + a.name + " and he is " + a.age + ".");
         System.out.println("Student a's total cost of attendance is: $" + student_a_fees + ".");
 
