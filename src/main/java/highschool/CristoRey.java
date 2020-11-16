@@ -15,7 +15,7 @@ public class CristoRey {
 
         Student b = new Student( "Francios", 28, 12);
 
-        //String student_a_name = "Mike";
+        // String student_a_name = "Mike";
         // int student_a_age = 25;
         // int student_a_credit_hours = 15;
 
@@ -25,8 +25,9 @@ public class CristoRey {
 
         double rate_per_credit_hour = 550.75;
 
-        double student_a_fees = a.credit_hours * rate_per_credit_hour;
-        double student_b_fees =  b.credit_hours * rate_per_credit_hour;
+        // How can we define this attendance cost calculation differently?? Maybe on a per student basis.
+        double student_a_fees = Student.calculateAttenceCost(rate_per_credit_hour, a.credit_hours);
+        double student_b_fees = Student.calculateAttenceCost(rate_per_credit_hour, b.credit_hours);
 
         System.out.println("Student a's name is: " + a.name + " and he is " + a.age + ".");
         System.out.println("Student a's total cost of attendance is: $" + student_a_fees + ".");
