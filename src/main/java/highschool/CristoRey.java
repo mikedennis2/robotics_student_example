@@ -25,9 +25,11 @@ public class CristoRey {
 
         double rate_per_credit_hour = 550.75;
 
+        // How can we replace this code with the static method in Student.java?
         double student_a_fees = a.credit_hours * rate_per_credit_hour;
         double student_b_fees =  b.credit_hours * rate_per_credit_hour;
 
+        // We have some repeated lines of code. Can we simplify this??
         System.out.println("Student a's name is: " + a.name + " and he is " + a.age + ".");
         System.out.println("Student a's total cost of attendance is: $" + student_a_fees + ".");
 

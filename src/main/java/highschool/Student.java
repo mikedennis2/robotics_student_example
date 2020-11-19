@@ -25,5 +25,14 @@ public class Student {
         return cost_per_ch * ch_quantity;
     }
 
+    // TODO: #1 define the attendance cost calculation on a per student basis
+
+
+    /* #TODO: #2 create a way to print one sentence giving the a Student's name and age 
+    Ex. "Mike is 25 years old" */
+
+
+    /* #TODO: #3 create a way to print the number of credits a student is taking and the cost 
+    Ex. "Mike is taking 15 credits for a total cost of ____" */
 
 }
